@@ -274,5 +274,6 @@ $(function () {
 
 //判断浏览器是否支持html5本地存储
 function localStorageSupport() {
+    alert("no")
     return (('localStorage' in window) && window['localStorage'] !== null)
 }
